@@ -20,7 +20,8 @@
   --animate-meteor: meteor 5s linear infinite;
   
   @keyframes float {
-    0% {
+    0%,
+    100% {
       transform: translateY(0);
     }
     50% {
@@ -28,7 +29,8 @@
     }
   }
   @keyframes pulse-subtle {
-    0%, 100% {
+    0%, 
+    100% {
       opacity: 1;
     }
     50% {
@@ -83,7 +85,7 @@
 
     --border: 217 33% 20%;
   }
-  * padding{
+  * {
     @apply border-border;
   }
   html {
@@ -119,7 +121,7 @@
 
 @utility text-glow{
   @apply relative;
-  text-shadow: 0 0 10px rgba(167,139, 250, 0.5);
+  text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
 
 }
 
@@ -128,14 +130,16 @@
 }
 
 @utility gradient-border {
-  @apply realative round-md;
+  @apply relative rounded-md;
   background: linear-gradient(to right, hsl(var(--card)), hsl(var(--card)));
   background-clip: padding-box;
   border: 1px solid transparent; 
 }
 
 @utility cosmic-button {
-  @apply px-6 py-2 rounded-full, bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow=[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95;
+  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium
+          transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)]
+          hover:scale-105 active:scale-95;
 }
 
 @utility star {
