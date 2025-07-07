@@ -3,19 +3,22 @@ import { cn } from "../lib/utils"
 
 const skills = [
     //Programming Language 
-    {name:"Python", level: 95, category:"Coding Languages"},
-    {name:"React", level: 90, category:"Coding Languages"},
+    {name:"Python", level: 85, category:"Coding Languages"},
+    {name:"React", level: 85, category:"Coding Languages"},
     {name:"JavaScript", level: 85, category:"Coding Languages"},
     {name:"HTML/CSS", level: 75, category:"Coding Languages"},
     {name:"R", level: 75, category:"Coding Languages"},
+    {name:"SQL", level: 50, category:"Coding Languages"},
     {name:"C++", level: 40, category:"Coding Languages"},
     
-    //Backend and Frameworkss
-    {name:"Node.js", level: 90, category:"Frameworks"},
+    //Backend and Frameworks
+    {name:"Node.js", level: 85, category:"Frameworks"},
     {name:"PyTorch", level: 85, category:"frmework"},
     {name:"TensorFlow", level: 80, category:"Frameworks"},
-    {name:"OpenCV", level: 75, category:"Frameworks"},
     {name:"MediaPipe", level: 83, category:"Frameworks"},
+    {name:"OpenCV", level: 75, category:"Frameworks"},
+    {name:"React Native", level: 75, category:"Frameworks"},
+    {name:"Pandas", level: 73, category:"Frameworks"},
     {name:"Scikit-image", level: 80, category:"Frameworks"},
     {name:"FastAPI", level: 65, category:"backend"},
     {name:"KiCad", level: 65, category:"Frameworks"},
@@ -23,6 +26,7 @@ const skills = [
     //Tools
     {name:"Git/Github", level: 90, category:"Tools"},
     {name:"VS Code", level: 90, category:"Tools"},
+    {name:"Linux", level: 80, category:"Tools"},
     {name:"Anaconda", level: 70, category:"Tools"},
     {name:"Docker", level: 65, category:"Tools"},
 ]
