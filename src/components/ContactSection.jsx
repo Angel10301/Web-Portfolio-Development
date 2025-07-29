@@ -1,5 +1,5 @@
 
-import { Instagram, Linkedin, LocationEditIcon, Mail, PhoneCallIcon } from "lucide-react";
+import { Linkedin, LocationEditIcon, Mail, PhoneCallIcon } from "lucide-react";
 import { cn } from "../lib/utils";
 export const ContactSection =() => {
     return(
@@ -9,7 +9,7 @@ export const ContactSection =() => {
                     Get In <span className=" text-primary"> Touch</span>
                 </h2>
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Have a project in mind or want to collaborate?? Reach out!
+                    Have a project in mind or want to collaborate? Reach out!
                     Im always open to discuss new opportunities.
                 </p>
                 <div className="grid grid-cols-1 gap-12">

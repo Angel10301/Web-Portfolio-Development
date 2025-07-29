@@ -1,16 +1,20 @@
 import { ArrowDown } from "lucide-react"
+import AnimatedPhoto from "./AnimatedPhoto"
 
 export const HeroSection = () => {
     return <section id="hero" className="relative min-h-screen flex flex-col items-center justify-center justify-center px-4">
         <div className="container max-w-4xl mx-auto text-center z-10">
-            <div className="space-y-6">
+            <a className="opacity-0 animate-fade-in-delay-3">
+                <AnimatedPhoto/>
+            </a>
+            <div className="space-y-5">
                 <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
                     <span className="opacity-0 animate-fade-in">Hi I'm </span>
                     <span className="text-primary opacity-0 animate-fade-in-delay-1">Angel</span>
                     <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Pichardo</span>
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    As a passionate computer engineering professional, I bring a dynamic skill set in both hardware and software domains, with a strong focus on embedded systems and robotics. My hands-on experience includes designing and optimizing microcontrollers and real-time processing systems, ensuring seamless hardware communication. I am also well-versed in web development, with proficiency in creating robust applications using modern frameworks and technologies. My true passion lies in artificial intelligence, ignited during my final undergraduate semester through immersive Machine Learning and AI courses using Python and R. These experiences led me to explore advanced computer vision techniques, leveraging libraries like TensorFlow, OpenCV, and Scikit-Image to build innovative solutions with real-world impact.
+                    As a driven Computer Engineering graduate, I am eager to explore the vast software devlopment industry with a robust skill set in both hardware and software. With a fueled passion for artifical intelligence, I am ready to contribute my technical prowess and creative problem-solving to deliver impactful, cutting edge applications in the ever-evolving tech cosmos.
                 </p>
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">
                     <a href="#projects" className="cosmic-button">

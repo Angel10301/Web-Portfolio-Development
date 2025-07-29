@@ -64,7 +64,7 @@ export const ProjectsSection = () => {
                                 className="text-foreground/80 hover:text-blue-400 transition-colors duration-300">
                                     <ExternalLink/>
                                     </a>
-                                <a href= {projects.GithubUrl} 
+                                <a href= {projects.githubUrl} 
                                 target="_blank"
                                 className="text-foreground/80 hover:text-blue-400 transition-colors duration-300">
                                     <Github/>

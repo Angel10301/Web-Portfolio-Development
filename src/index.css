@@ -162,4 +162,41 @@
   padding: 0 ;
   text-align: center; 
 }
+.animated-photo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 192px;
+    height: 192px;
+    overflow: hidden;
+    z-index: 20;
+}
 
+.animated-photo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 192px;
+    height: 192px;
+    overflow: hidden;
+    z-index: 20;
+}
+
+.animated-photo div {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 4px solid rgba(234, 65, 19, 0.5);
+    will-change: clip-path;
+    transition: clip-path 0.5s ease-out;
+}
+
+@supports (clip-path: ellipse()) {
+    .animated-photo div {
+        clip-path: ellipse(50% 50% at 50% 50%);
+    }
+}
