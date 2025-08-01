@@ -2,19 +2,13 @@ import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function App() {
+export default function App() {
   return (
-  <>
-  <BrowserRouter>
-    <Routes>
-      <Route index element = {<Home />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
-  </BrowserRouter>
-  </>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
-
-export default function App(){
-  return <h1>Hello helloWorld</h1>;
 }
