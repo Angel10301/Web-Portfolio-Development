@@ -8,7 +8,7 @@ const AnimatedPhoto = () => {
         let animationFrameId
 
         const animate = () => {
-            const time = Date.now() * 0.00009 // Moderate speed for slimy movement
+            const time = Date.now() * 0.00008 // Moderate speed for slimy movement
             
             // Controlled blob deformations that stay within reasonable bounds
             const blob1 = Math.sin(time) * 4 + Math.sin(time * 2.3 + Math.PI/3) * 2
